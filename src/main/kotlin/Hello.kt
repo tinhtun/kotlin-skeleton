@@ -1,5 +1,7 @@
 package com.thtun
 
 fun main(args: Array<String>) {
-    println("Hello Kotlin!")
+    println(sayHello("Kotlin"))
 }
+
+fun sayHello(name: String) = "Hello $name!"
